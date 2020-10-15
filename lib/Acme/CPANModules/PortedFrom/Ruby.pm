@@ -24,6 +24,11 @@ _
             #ruby_package => undef',
             #tags => [''],
         },
+        {
+            module => 'HTTP::Server::Brick',
+            #ruby_package => undef',
+            tags => ['web'],
+        },
     ],
 };
 
