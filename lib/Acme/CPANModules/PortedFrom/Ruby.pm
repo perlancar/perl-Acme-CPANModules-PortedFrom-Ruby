@@ -1,6 +1,8 @@
 package Acme::CPANModules::PortedFrom::Ruby;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 our $LIST = {
@@ -16,6 +18,11 @@ _
             module => 'App::Sass',
             #ruby_package => undef',
             tags => ['web'],
+        },
+        {
+            module => 'Scientist',
+            #ruby_package => undef',
+            #tags => [''],
         },
     ],
 };
