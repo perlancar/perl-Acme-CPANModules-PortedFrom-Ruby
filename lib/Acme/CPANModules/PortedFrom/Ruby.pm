@@ -29,6 +29,19 @@ _
             #ruby_package => undef',
             tags => ['web'],
         },
+        {
+            module => 'Plack',
+            ruby_package => 'rack',
+            tags => ['web'],
+            description => <<'_',
+
+From Plack's documentation: "Plack is like Ruby's Rack or Python's Paste for
+WSGI." Plack and PSGI was created by MIYAGAWA in 2009 and is inspired by both
+Python's WSGI specification (hence the dual specification-implementation split)
+and Plack (hence the name).
+
+_
+        },
     ],
 };
 
