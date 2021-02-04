@@ -49,3 +49,9 @@ _
 # ABSTRACT:
 
 =head1 DESCRIPTION
+
+
+=head2 SEE ALSO
+
+L<Acme::CPANModules::PortedFrom::Python> and other
+C<Acme::CPANModules::PortedFrom::*> modules.
