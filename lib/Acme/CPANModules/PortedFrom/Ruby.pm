@@ -38,7 +38,7 @@ _
 From Plack's documentation: "Plack is like Ruby's Rack or Python's Paste for
 WSGI." Plack and PSGI were created by MIYAGAWA in 2009 and were inspired by both
 Python's WSGI specification (hence the dual specification-implementation split)
-and Ruby's Plack (hence the name).
+and Ruby's Rack (hence the name).
 
 _
         },
