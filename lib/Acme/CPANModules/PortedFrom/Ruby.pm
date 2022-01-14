@@ -1,5 +1,8 @@
 package Acme::CPANModules::PortedFrom::Ruby;
 
+use strict;
+#use warnings;
+
 # AUTHORITY
 # DATE
 # DIST
@@ -16,23 +19,23 @@ _
     entries => [
         {
             module => 'App::Sass',
-            #ruby_package => undef',
+            #ruby_package => undef,
             tags => ['web'],
         },
         {
             module => 'Scientist',
-            #ruby_package => undef',
-            #tags => [''],
+            #ruby_package => undef,
+            #tags => [],
         },
         {
             module => 'HTTP::Server::Brick',
-            #ruby_package => undef',
+            #ruby_package => undef,
             tags => ['web'],
         },
         {
             module => 'Plack',
             ruby_package => 'rack',
-            tags => ['web'],
+            tags => ['web', 'framework'],
             description => <<'_',
 
 From Plack's documentation: "Plack is like Ruby's Rack or Python's Paste for
@@ -41,6 +44,16 @@ Python's WSGI specification (hence the dual specification-implementation split)
 and Ruby's Plack (hence the name).
 
 _
+            ruby_website_url => 'https://rack.github.io/',
+            ruby_github_url => 'https://github.com/rack/rack',
+            rubygems_url => 'https://rubygems.org/gems/rack',
+        },
+        {
+            module => 'Squatting',
+            ruby_package => 'camping',
+            tags => ['web', 'framework'],
+            ruby_website_url => 'http://www.ruby-camping.com/',
+            rubygems_url => 'https://rubygems.org/gems/camping',
         },
     ],
 };
