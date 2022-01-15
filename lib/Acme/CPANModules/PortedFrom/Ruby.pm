@@ -55,6 +55,13 @@ _
             ruby_website_url => 'http://www.ruby-camping.com/',
             rubygems_url => 'https://rubygems.org/gems/camping',
         },
+        {
+            module => 'Valiant',
+            ruby_package => 'rails',
+            tags => ['web', 'framework'],
+            ruby_website_url => 'https://rubyonrails.org/',
+            rubygems_url => 'https://rubygems.org/gems/rails',
+        },
     ],
 };
 
@@ -68,3 +75,5 @@ _
 
 L<Acme::CPANModules::PortedFrom::Python> and other
 C<Acme::CPANModules::PortedFrom::*> modules.
+
+L<Acme::CPANModules::Interop::Ruby> to interact with Ruby things.
