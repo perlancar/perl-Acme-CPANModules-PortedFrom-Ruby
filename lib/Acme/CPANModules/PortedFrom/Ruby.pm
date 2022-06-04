@@ -1,5 +1,7 @@
 package Acme::CPANModules::PortedFrom::Ruby;
 
+use strict;
+
 # AUTHORITY
 # DATE
 # DIST
@@ -18,6 +20,11 @@ _
             module => 'App::Sass',
             #ruby_package => undef',
             tags => ['web'],
+        },
+        {
+            module => 'Data::Gimei',
+            ruby_package => 'gimei',
+            tags => [],
         },
         {
             module => 'Scientist',
