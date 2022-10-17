@@ -1,6 +1,7 @@
 package Acme::CPANModules::PortedFrom::Ruby;
 
 use strict;
+#use warnings;
 
 # AUTHORITY
 # DATE
@@ -18,8 +19,8 @@ _
     entries => [
         {
             module => 'App::Sass',
-            #ruby_package => undef',
             tags => ['web'],
+            #ruby_package => undef,
         },
         {
             module => 'Data::Gimei',
@@ -28,18 +29,17 @@ _
         },
         {
             module => 'Scientist',
-            #ruby_package => undef',
-            #tags => [''],
+            #tags => [],
+            #ruby_package => undef,
         },
         {
             module => 'HTTP::Server::Brick',
-            #ruby_package => undef',
             tags => ['web'],
+            #ruby_package => undef,
         },
         {
             module => 'Plack',
-            ruby_package => 'rack',
-            tags => ['web'],
+            tags => ['web', 'framework'],
             description => <<'_',
 
 From Plack's documentation: "Plack is like Ruby's Rack or Python's Paste for
@@ -48,6 +48,22 @@ Python's WSGI specification (hence the dual specification-implementation split)
 and Ruby's Rack (hence the name).
 
 _
+            ruby_package => 'rack',
+            ruby_website_url => 'https://rack.github.io/',
+            ruby_github_url => 'https://github.com/rack/rack',
+        },
+        {
+            module => 'Squatting',
+            tags => ['web', 'framework'],
+            ruby_package => 'camping',
+            ruby_website_url => 'http://www.ruby-camping.com/',
+        },
+        {
+            module => 'Valiant',
+            summary => 'Inspired by the data validation style in Ruby on Rails',
+            tags => ['validation', 'framework'],
+            ruby_package => 'rails',
+            ruby_website_url => 'https://rubyonrails.org/',
         },
     ],
 };
@@ -62,3 +78,5 @@ _
 
 L<Acme::CPANModules::PortedFrom::Python> and other
 C<Acme::CPANModules::PortedFrom::*> modules.
+
+L<Acme::CPANModules::Interop::Ruby> to interact with Ruby things.
