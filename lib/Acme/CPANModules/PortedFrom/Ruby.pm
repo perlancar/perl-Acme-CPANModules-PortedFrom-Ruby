@@ -74,7 +74,7 @@ _
 =head1 DESCRIPTION
 
 
-=head1 SEE ALSO
+=head1 prepend:SEE ALSO
 
 L<Acme::CPANModules::PortedFrom::Python> and other
 C<Acme::CPANModules::PortedFrom::*> modules.
