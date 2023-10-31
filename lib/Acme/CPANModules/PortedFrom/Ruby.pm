@@ -9,7 +9,7 @@ use strict;
 # VERSION
 
 our $LIST = {
-    summary => "Modules/applications that are ported from (or inspired by) ".
+    summary => "List of modules/applications that are ported from (or inspired by) ".
         "Ruby libraries",
     description => <<'_',
 
