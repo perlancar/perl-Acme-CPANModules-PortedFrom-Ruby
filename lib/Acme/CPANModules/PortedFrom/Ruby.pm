@@ -65,6 +65,13 @@ _
             ruby_package => 'rails',
             ruby_website_url => 'https://rubyonrails.org/',
         },
+        {
+            module => 'Dotenv',
+            summary => 'Although the 12-factor methodology is not tied to a single language, the original implementation is in Ruby',
+            #tags => ['framework'],
+            ruby_package => 'dotenv',
+            ruby_website_url => 'https://github.com/heroku/12factor',
+        },
     ],
 };
 
